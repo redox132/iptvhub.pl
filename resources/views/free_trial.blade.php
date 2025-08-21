@@ -15,7 +15,7 @@
                 </h1>
 
                 <!-- Message -->
-                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+                <p class="text-md text-gray-700 dark:text-gray-300 leading-relaxed mb-6 sm:text-xl">
                     We regret to inform you that due to overwhelming demand, we currently do not have trial slots available. 
                     We apologize for any inconvenience this may cause. Rest assured, our team is working diligently to expand 
                     our capacity and accommodate more users in the future.
@@ -38,7 +38,7 @@
             </div>
 
             <!-- Right Image (40%) -->
-            <div class="lg:col-span-5 flex justify-center lg:justify-end">
+            <div class="lg:col-span-5 hidden lg:flex justify-center lg:justify-end">
                 <img 
                     src="{{ asset('images/2bf03992-150c-43b6-bacc-676e3b4828b3.jpg') }}" 
                     alt="No trial slots illustration" 
