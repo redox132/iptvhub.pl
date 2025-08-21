@@ -10,16 +10,13 @@
 </head>
 
 <body>
-    <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
     <div class="bg-white">
         <header class="absolute inset-x-0 top-0 z-50">
             <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
                 <div class="flex lg:flex-1">
                     <a href="#" class="-m-1.5 p-1.5">
                         <span class="sr-only">Your Company</span>
-                        <img src="{{ asset('images/logo.png') }}"
-                            alt="" class="h-8 w-auto" />
+                        <img src="{{ asset('images/logo.png') }}" alt="" class="h-8 w-auto" />
                     </a>
                 </div>
                 <div class="flex lg:hidden">
@@ -105,8 +102,10 @@
                                 class="absolute inset-0"></span>Read more <span aria-hidden="true">&rarr;</span></a>
                     </div>
                 </div>
-                <h1 class="text-xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">Data to enrich
-                    your online business</h1>
+                <h1 class="text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+                    Data to enrich
+                    your online business
+                </h1>
                 <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad
                     ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
                 </p>
