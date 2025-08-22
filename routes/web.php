@@ -17,3 +17,7 @@ Route::get('/freetrail', function () {
 Route::get('/tutorial', function () {
     return view('tutorial');
 })->name('tutorial');
+
+Route::fallback(function () {
+    return view('statuses.404');
+})->name('404');
