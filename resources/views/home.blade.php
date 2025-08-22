@@ -15,7 +15,15 @@
         <div class="mx-auto max-w-4xl text-center py-12 sm:py-16 lg:py-24 relative z-10">
             <div class="mb-6 flex justify-center">
                 <div class="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Discover our premium IPTV service. <a href="#" class="font-semibold text-indigo-400"><span aria-hidden="true" class="absolute inset-0"></span>Explore now <span aria-hidden="true">&rarr;</span></a>
+                    Discover our premium IPTV service. 
+                    <a href="#" class="font-semibold text-indigo-200">
+                        <span aria-hidden="true" class="absolute inset-0">
+                            </span>
+                            Explore now
+                            <span aria-hidden="true" class="">
+                                &rarr;
+                            </span>
+                        </a>
                 </div>
             </div>
             <h1 class="text-3xl font-extrabold tracking-tight text-balance text-white sm:text-5xl lg:text-6xl">
