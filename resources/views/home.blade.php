@@ -18,7 +18,7 @@
                     Discover our premium IPTV service. <a href="#" class="font-semibold text-indigo-400"><span aria-hidden="true" class="absolute inset-0"></span>Explore now <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
-            <h1 class="text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl lg:text-6xl">
+            <h1 class="text-3xl font-extrabold tracking-tight text-balance text-white sm:text-5xl lg:text-6xl">
                 IPTV Hub: The Best Paid IPTV Service Provider
             </h1>
             <p class="mt-6 text-lg font-medium text-pretty text-white sm:text-xl/8">
