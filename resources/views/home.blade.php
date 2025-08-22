@@ -5,7 +5,9 @@
 @section('content')
 
     {{-- hero --}}
-     <div id="hero" class="relative isolate flex min-h-screen items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('images/image_1.png') }}');">
+    <div id="hero"
+        class="relative isolate flex min-h-screen items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat"
+        style="background-image: url('{{ asset('images/image_1.png') }}');">
         <div class="absolute inset-0 -z-10 bg-black/60"></div>
         <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
             <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
@@ -14,16 +16,17 @@
         </div>
         <div class="mx-auto max-w-4xl text-center py-12 sm:py-16 lg:py-24 relative z-10">
             <div class="mb-6 flex justify-center">
-                <div class="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Discover our premium IPTV service. 
+                <div
+                    class="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    Discover our premium IPTV service.
                     <a href="#" class="font-semibold text-indigo-200">
                         <span aria-hidden="true" class="absolute inset-0">
-                            </span>
-                            Explore now
-                            <span aria-hidden="true" class="">
-                                &rarr;
-                            </span>
-                        </a>
+                        </span>
+                        Explore now
+                        <span aria-hidden="true" class="">
+                            &rarr;
+                        </span>
+                    </a>
                 </div>
             </div>
             <h1 class="text-3xl font-extrabold tracking-tight text-balance text-white sm:text-5xl lg:text-6xl">
@@ -33,8 +36,11 @@
                 Over 18,000 live TV channels and 80,000 movies & TV shows (VOD) on your TV, computer, tablet, or smartphone.
             </p>
             <div class="mt-8 flex items-center justify-center gap-x-6">
-                <a href="#" class="rounded-md bg-[#04aa6d] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-[#018051] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-                <a href="#" class="text-sm/6 font-semibold text-white px-3 py-1 rounded-md">Learn more <span aria-hidden="true">→</span></a>
+                <a href="#"
+                    class="rounded-md bg-[#04aa6d] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-[#018051] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
+                    started</a>
+                <a href="#" class="text-sm/6 font-semibold text-white px-3 py-1 rounded-md">Learn more <span
+                        aria-hidden="true">→</span></a>
             </div>
         </div>
         <div aria-hidden="true" class="absolute inset-x-0 bottom-0 -z-10 transform-gpu overflow-hidden blur-3xl">

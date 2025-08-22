@@ -47,7 +47,7 @@
                       class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                       <div class="flex items-center justify-between">
                           <a href="#" class="-m-1.5 p-1.5">
-                              <span class="sr-only">IPTV Gear</span>
+                              <span class="sr-only">IPTV Hub</span>
                               <img src="{{ asset('images/logo.png') }}" alt="">
                           </a>
                           <button type="button" command="close" commandfor="mobile-menu"
@@ -62,25 +62,32 @@
                       <div class="mt-6 flow-root">
                           <div class="-my-6 divide-y divide-gray-500/10">
                               <div class="space-y-2 py-6">
-                                  <a href="#"
+                                  <a href="{{ route('home') }}"
                                       class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
-                                  <a href="#"
+                                  <a href="{{ route('freetrail') }}"
                                       class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Free
                                       Trial</a>
-                                  <a href="#"
+                                  <a href="#services"
                                       class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About</a>
-                                  <a href="#"
+                                  <a href="#features"
                                       class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
-                                  <a href="#"
+                                  <a href="{{ route('tutorial') }}"
                                       class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Tutorial</a>
-                                  <a href="#"
+                                  <a href="#pricing"
                                       class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
                               </div>
 
-                              <div class="py-6">
-                                  <a href="#"
-                                      class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log
-                                      in</a>
+                              <div
+                                  class="relative text-center rounded-full px-3 py-1 text-sm/6 text-gray-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                                  Discover our premium IPTV service.
+                                  <a href="#" class="font-semibold text-indigo-500">
+                                      <span aria-hidden="true" class="absolute inset-0">
+                                      </span>
+                                      Explore now
+                                      <span aria-hidden="true">
+                                          &rarr;
+                                      </span>
+                                  </a>
                               </div>
                           </div>
                       </div>
