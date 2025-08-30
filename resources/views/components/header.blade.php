@@ -19,22 +19,25 @@
           </div>
           <div class="hidden lg:flex lg:gap-x-12">
               <a href="{{ route('home') }}"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
               <a href="{{ route('freetrail') }}"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Free
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Free
                   Trial</a>
-              <a href="#services"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Services</a>
-              <a href="#features"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
+              <a href="/#services"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Services</a>
+              <a href="/#features"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
               <a href="{{ route('tutorial') }}"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Tutorial</a>
-              <a href="#pricing"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Tutorial</a>
+              <a href="/#pricing"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
           </div>
           <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="#" class="text-sm/6 font-semibold text-gray-900">Get started <span
-                      aria-hidden="true">&rarr;</span></a>
+              <a href="mailto:contact@iptvhub.pl"  class="text-sm/6 font-semibold text-gray-900">
+                Contact us
+                <span
+                      aria-hidden="true">&rarr;</span>
+                </a>
           </div>
       </nav>
       {{-- end of header --}}
@@ -63,18 +66,18 @@
                           <div class="-my-6 divide-y divide-gray-500/10">
                               <div class="space-y-2 py-6">
                                   <a href="{{ route('home') }}"
-                                      class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
+                                      class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
                                   <a href="{{ route('freetrail') }}"
-                                      class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Free
+                                      class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Free
                                       Trial</a>
                                   <a href="#services"
-                                      class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About</a>
+                                      class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">About</a>
                                   <a href="#features"
-                                      class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
+                                      class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
                                   <a href="{{ route('tutorial') }}"
-                                      class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Tutorial</a>
+                                      class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Tutorial</a>
                                   <a href="#pricing"
-                                      class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
+                                      class="-mx-3 block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
                               </div>
 
                               <div
@@ -83,7 +86,7 @@
                                   <a href="#" class="font-semibold text-indigo-500">
                                       <span aria-hidden="true" class="absolute inset-0">
                                       </span>
-                                      Explore now
+                                      Contact us
                                       <span aria-hidden="true">
                                           &rarr;
                                       </span>

@@ -4,6 +4,9 @@
 
 @section('content')
 
+
+<x-whatsApp />
+
     {{-- hero --}}
     <div id="hero"
         class="relative isolate flex min-h-screen items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat"
