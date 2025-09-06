@@ -5,7 +5,7 @@
 @section('content')
 
 
-<x-whatsApp />
+<x-whats-app />
 
     {{-- hero --}}
     <div id="hero"
